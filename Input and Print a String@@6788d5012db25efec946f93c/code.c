@@ -3,7 +3,7 @@
 void welcome() {
     char list[100];
     scanf("%s", list);
-    printf("%s", list);
+    printf("You entered: %s", list);
 }
 
 int main() {
