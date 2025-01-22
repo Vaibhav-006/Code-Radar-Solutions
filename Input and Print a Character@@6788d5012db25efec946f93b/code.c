@@ -7,6 +7,6 @@ void welcome() {
 }
 
 int main() {
-    welcome();
+    void welcome();
     return 0;
 }
