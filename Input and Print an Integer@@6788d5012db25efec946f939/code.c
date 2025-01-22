@@ -3,8 +3,7 @@
 void welcome() {
     int num;
     scanf("%d", &num);
-    printf("You entered: %d", num)
-    return num;
+    printf("You entered: %d", num);
 }
 
 int main() {
