@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void sum(){
+void welcome(){
     int a;
     int b;
     scanf("%d", a);
@@ -9,6 +9,6 @@ void sum(){
 }
 
 int main() {
-    sum();
+    welcome();
     return 0;
 }
