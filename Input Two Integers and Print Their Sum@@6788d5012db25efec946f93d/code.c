@@ -9,6 +9,6 @@ void sum(){
 }
 
 int main() {
-    welcome();
+    sum();
     return 0;
 }
