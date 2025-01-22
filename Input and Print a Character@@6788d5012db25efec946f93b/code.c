@@ -3,7 +3,7 @@
 void welcome() {
     char str;
     scanf("%c", &str);
-    printf("You enetered: %c", str);
+    printf("You entered: %c", str);
 }
 
 int main() {
