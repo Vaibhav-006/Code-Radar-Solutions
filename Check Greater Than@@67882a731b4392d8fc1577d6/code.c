@@ -14,7 +14,7 @@ int main() {
         printf("False");
     }
     else{
-        printf("%d", 0);
+        printf("Zero");
     }
     return 0;
 }
