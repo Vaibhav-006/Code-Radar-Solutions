@@ -2,9 +2,9 @@
 
 
 int main() {
-    int a, b, c;
-    scanf("%d %d %d", &a, &b, &c);
+    float a, b, c;
+    scanf("%f %f %f", &a, &b, &c);
     int sum= a+b+c;
-    printf("Average: %d", sum/3);
+    printf("Average: %.2fd", sum/3);
     return 0;
 }
