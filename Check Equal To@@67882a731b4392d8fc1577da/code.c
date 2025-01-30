@@ -7,9 +7,10 @@ char* welcome() {
 int main() {
     int a, b;
     scanf("d %d", &a, &b);
-    if(a==b){
+    if(int a==b){
         printf("True");
     }
+    else if()
 
     else{
         printf("False");
