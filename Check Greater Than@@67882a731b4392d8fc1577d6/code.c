@@ -13,5 +13,8 @@ int main() {
     else if(b>a){
         printf("False");
     }
+    else{
+        printf("%d", 0);
+    }
     return 0;
 }
