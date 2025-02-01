@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     char a[10];
-    scanf("%c", &a);
+    scanf("%s", a);
     int count=0;
     int dig=0;
     char vow[]= {'a','e','o','u','i','A','E','O','U','I'};
