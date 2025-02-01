@@ -5,18 +5,18 @@ char* welcome() {
 }
 
 int main() {
-    char a[10];
-    scanf("%s", a);
+    char a;
+    scanf("%c", &a);
     int count=0;
     int dig=0;
     char vow[]= {'a','e','o','u','i','A','E','O','U','I'};
     int dig[]= {1,2,3,4,5,6,7,8,9,0};
     for(int i=0;i<10;i++){
-        if(a[0]==vow[i]){
+        if(a==vow[i]){
             count++;
             break;
         }
-        else if(a[0]==dig[i]){
+        else if(a==dig[i]){
             dig++;
             break;
         }
