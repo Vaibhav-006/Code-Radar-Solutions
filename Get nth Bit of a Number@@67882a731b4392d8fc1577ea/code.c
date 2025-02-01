@@ -7,6 +7,11 @@ char* welcome() {
 int main() {
     int a,b;
     scanf("%d %d", &a, &b);
-    printf("%d", a<<b);
+    if(a&(1U<<b)){
+        printf("%d",1);
+    }
+    else{
+        printf("%d", 0);
+    }
     return 0;
 }
