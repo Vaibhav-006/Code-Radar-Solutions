@@ -13,7 +13,7 @@ int main() {
         if(a==vowel[i]){
             count++;
             break;
-        }
+        };
     }
     if(count>0){
         printf("Vowel");
