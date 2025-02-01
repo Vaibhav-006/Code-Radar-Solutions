@@ -7,11 +7,11 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d", &a);
-    if(a&1){
-        printf("Odd");
+    if(a%2==0){
+        printf("Even");
     }
     else{
-        print("Even");
+        print("Odd");
     }
     return 0;
 }
