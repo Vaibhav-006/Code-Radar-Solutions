@@ -8,12 +8,12 @@ int main() {
     char a;
     scanf("%c", &a);
     int count=0;
-    char vowel[]= ['a','e','o','u','i','\0']
+    char vowel[]= ['a','e','o','u','i']
     for(int i=0;i<=5;i++){
         if(a==vowel[i]){
             count++;
             break;
-        };
+        }
     }
     if(count>0){
         printf("Vowel");
