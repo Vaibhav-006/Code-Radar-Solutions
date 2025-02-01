@@ -10,7 +10,7 @@ int main() {
     int count=0;
     int dig=0;
     char vow[]= {'a','e','o','u','i','A','E','O','U','I'};
-    int dig[]= {1,2,3,4,5,6,7,8,9,0}
+    int dig[]= {1,2,3,4,5,6,7,8,9,0};
     for(int i=0;i<10;i++){
         if(a[0]==vow[i]){
             count++;
