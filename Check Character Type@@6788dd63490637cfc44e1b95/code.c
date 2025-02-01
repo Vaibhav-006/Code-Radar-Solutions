@@ -9,7 +9,7 @@ int main() {
     scanf("%c", &a);
     int count=0;
     char vowel[]= ['a','e','o','u','i','/0'];
-    for(int i=0;i<=4;i++){
+    for(int i=0;i<=2;i++){
         if(a==vowel[i]){
             count++;
             break;
