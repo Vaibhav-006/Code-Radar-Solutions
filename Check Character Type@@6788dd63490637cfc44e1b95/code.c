@@ -8,7 +8,7 @@ int main() {
     char a;
     scanf("%c", &a);
     int count=0;
-    char vow[5]= {'a','e','o','u','i','A','E','O','U','I'};
+    char vow[]= {'a','e','o','u','i','A','E','O','U','I'};
     for(int i=0;i<10;i++){
         if(a==vow[i]){
             count=1;
