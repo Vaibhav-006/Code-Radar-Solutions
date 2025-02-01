@@ -8,10 +8,10 @@ int main() {
     int a;
     scanf("%d", &a);
     if(a|1){
-        printf("True");
+        printf("Set");
     }
     else{
-        printf("False");
+        printf("Not Set");
     }
     return 0;
 }
