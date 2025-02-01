@@ -11,7 +11,7 @@ int main() {
     char vow[]= {'a','e','o','u','i','A','E','O','U','I'};
     for(int i=0;i<10;i++){
         if(a==vow[i]){
-            count=1;
+            count++;
             break;
         }
     }
