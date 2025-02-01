@@ -17,7 +17,6 @@ int main() {
     }
     if(count>0){
         printf("Vowel");
-        count--;
     }
     else{
         printf("Consonent");
