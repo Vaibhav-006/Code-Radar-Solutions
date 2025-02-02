@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d", &a);
-    int days[]= {31,28,31,30,31,30,31,31,30,31,30,31};
+    int days[]= {0,31,28,31,30,31,30,31,31,30,31,30,31};
     if(a>=1 && a<=12){
         printf("%d", days[a]);
     }
