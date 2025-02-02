@@ -5,7 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    int a,b,charscanf("%d %d %d", &a, &b, &c);
+    int a,b,c;
+    scanf("%d %d %d", &a, &b, &c);
     if(a==b==c){
         printf("Equilateral");
     }
