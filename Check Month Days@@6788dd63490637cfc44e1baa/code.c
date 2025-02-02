@@ -10,11 +10,14 @@ int main() {
     if(a<1 && a>12){
         printf("Invalid");
     }
-    else if(a%2==0 && a!=2){
+    else if(a%2==0 && a!=2 && a!=8){
         printf("%d", 30);
     }
     else if(a==2){
         printf("%d", 28);
+    }
+    else if(a==8){
+        printf("%d", 31);
     }
     else{
         printf("%d", 31);
