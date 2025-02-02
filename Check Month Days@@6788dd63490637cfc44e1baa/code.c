@@ -8,7 +8,7 @@ int main() {
     int a;
     scanf("%d", &a);
     if(a<1 && a>12){
-        printf("Invalid");
+        printf("Invalid month");
     }
     else if(a%2==0 && a!=2 && a!=8){
         printf("%d", 30);
