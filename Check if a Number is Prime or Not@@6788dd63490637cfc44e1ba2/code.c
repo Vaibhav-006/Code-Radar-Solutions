@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+char* welcome() {
+    return "Welcome to Code Radar!";
+}
+
+int main() {
+    int a;
+    scanf("%d", &a);
+    int count=0;
+    int num[]= {2,3,5,7};
+    for(i=0;i<=4;i++){
+        if(a%num[i]%2==0){
+            count++;
+            break;
+        }
+    }
+    if(count>0){
+        printf("Not Prime");
+    }
+    else{
+        printf("Prime");
+    }
+    return 0;
+}
