@@ -6,6 +6,7 @@ char* welcome() {
 
 int main() {
     int a;
+    scanf("%d", &a);
     if(a%2==0 && a!=2){
         printf("%d", 30);
     }
