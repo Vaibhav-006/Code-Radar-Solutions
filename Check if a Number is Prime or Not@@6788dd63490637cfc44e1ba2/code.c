@@ -9,7 +9,7 @@ int main() {
     scanf("%d", &a);
     int count=0;
     int num[]= {2,3,5,7};
-    for(i=0;i<=4;i++){
+    for(i=0;i<=3;i++){
         if(a%num[i]==0){
             count++;
             break;
