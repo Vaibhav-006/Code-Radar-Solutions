@@ -10,7 +10,7 @@ int main() {
     int count=0;
     int num[]= {2,3,5,7};
     for(int i=0;i<=4;i++){
-        if(a%num[i]==0){
+        if(a%num[i]==0 && a!=2 && a!=3 && a!=5 && a!=7){
             count++;
             break;
         }
