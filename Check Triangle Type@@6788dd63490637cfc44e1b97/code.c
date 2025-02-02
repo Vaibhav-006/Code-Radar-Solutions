@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+char* welcome() {
+    return "Welcome to Code Radar!";
+}
+
+int main() {
+    int a,b,charscanf("%d %d %d", &a, &b, &c);
+    if(a==b==c){
+        printf("Equilateral");
+    }
+    else{
+        printf("Isosceles");
+    }
+    return 0;
+}
