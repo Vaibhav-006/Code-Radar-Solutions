@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d", &a);
-    char day[]= {'Nill','Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'};
+    char day[]= {'Nill' ,'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'};
     printf("%s", day[1]);
     return 0;
 }
