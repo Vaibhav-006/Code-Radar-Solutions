@@ -11,11 +11,10 @@ int main() {
         printf("Profit");
     }
     else if(a>b){
-        printf("Loss")
+        printf("Loss");
     }
     else{
         printf("NO Profit and selling price");
     }
-    printf("%s", welcome());
     return 0;
 }
