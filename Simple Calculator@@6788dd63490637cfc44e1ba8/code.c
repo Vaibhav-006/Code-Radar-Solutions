@@ -23,6 +23,5 @@ int main() {
     else{
         printf("error");
     }
-    printf("%s", welcome());
     return 0;
 }
