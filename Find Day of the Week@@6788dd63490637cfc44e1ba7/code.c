@@ -8,6 +8,6 @@ int main() {
     int a;
     scanf("%d", &a);
     char day[]= {"Nill","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-    printf("%c", day[1]);
+    printf("%s", day[1]);
     return 0;
 }
