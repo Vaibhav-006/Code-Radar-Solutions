@@ -13,7 +13,7 @@ int main() {
     }
     int r;
     scanf("%d", &r);
-    for(int i=1;i<=r;i++){
+    for(int i=2;i<=r+1;i++){
         printf("%d\n", arr[-i]);
     }
     return 0;
