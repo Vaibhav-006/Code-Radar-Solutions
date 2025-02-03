@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int n;
-    char arr[100];
+    int arr[100];
     for(int i=0;i<=n;i++){
         scanf("%d", arr[i]);
     }
