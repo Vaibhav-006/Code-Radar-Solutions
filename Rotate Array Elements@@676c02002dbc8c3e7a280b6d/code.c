@@ -12,11 +12,9 @@ int main() {
         scanf("%d", &arr[i]);
     }
     int r;
-    int arrr[100];
     scanf("%d", &r);
     for(int i=1;i<=r;i++){
-        arrr[i-1]==arr[-i];
-        printf("%d\n", arrr[i-1]);
+        printf("%d\n", arr[-i]);
     }
     return 0;
 }
