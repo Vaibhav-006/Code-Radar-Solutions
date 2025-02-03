@@ -11,8 +11,12 @@ int main() {
     for(int i=0;i<=n;i++){
         scanf("%d", &arr[i]);
     }
-    for (int i=0;i<=n;i++){
-        printf("%d\n", arr[i]);
+    int r;
+    int arr2[100];
+    scanf("%d", &r);
+    for (int i=1;i<=r;i++){
+        arr2[i]==arr[-i];
+        printf("%d\n", arr2[i-1]);
     }
     return 0;
 }
