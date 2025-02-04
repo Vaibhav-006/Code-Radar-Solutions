@@ -7,13 +7,14 @@ int main() {
     for(int i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
-    int count=0;
+    int count=1;
     for(i=0;i<n;i++){
-        if(arr[i]<arr[i+1]){
-            count++;
+        if(arr[i]>arr[i+1]){
+            count=0;
+            break;
         }
     }
-    if(count==n){
+    if(count==0){
         printf("Sorted");
     }
     else{
