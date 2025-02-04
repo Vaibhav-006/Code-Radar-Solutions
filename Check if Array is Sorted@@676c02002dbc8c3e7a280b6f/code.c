@@ -16,12 +16,12 @@ int main() {
         if(arr[i]<arr[i+1]){
             count++;
         }
+    }
     if(count==n){
         printf("Sorted");
     }
     else{
         printf("Not Sorted");
-    }
     }
     return 0;
 }
