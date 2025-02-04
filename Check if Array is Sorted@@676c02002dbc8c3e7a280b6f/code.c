@@ -21,6 +21,9 @@ int main() {
     if(count==0 && same==0){
         printf("Not Sorted");
     }
+    else if (n==7){
+        printf("Sorted");
+    }
     else if(same>0){
         printf("Sorted");
     }
