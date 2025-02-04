@@ -18,7 +18,7 @@ int main() {
             same++;
         }
     }
-    if(count==0 && same==0){
+    if(count<=0 && same==0){
         printf("Not Sorted");
     }
     else if (n==7){
