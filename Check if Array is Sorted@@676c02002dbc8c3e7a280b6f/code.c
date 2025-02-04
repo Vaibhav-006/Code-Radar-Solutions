@@ -13,7 +13,7 @@ int main() {
             count=0;
             break;
         }
-        else{
+        else if(arr[i]==arr[i+1]){
             count++;
         }
     }
