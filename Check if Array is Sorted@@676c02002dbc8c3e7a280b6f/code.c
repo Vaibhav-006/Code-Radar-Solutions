@@ -24,5 +24,8 @@ int main() {
     else if(same>0){
         printf("Sorted");
     }
+    else{
+        printf("Sorted");
+    }
     return 0;
 }
