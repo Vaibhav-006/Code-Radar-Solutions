@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int n;
-    for(int i=0;i<n/2;i++){
+    for(int i=0;i<n;i++){
         print(" ");
         i--;
         for(int j=1; j<n; j++){
