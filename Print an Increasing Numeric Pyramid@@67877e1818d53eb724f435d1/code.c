@@ -7,11 +7,11 @@ char* welcome() {
 int main() {
     int n;
     for(int i=0;i<n;i++){
-        print(" ");
+        printf(" ");
         i--;
     }
     for(int i=1;i<n;i++){
-        printf("%d", i);
+        printf("%d\n", i);
     }
     return 0;
 }
