@@ -10,6 +10,9 @@ int main() {
     if(n==1){
         printf("%d", arr[0]);
     }
+    else if (arr[i]==arr[i-1] && arr[i]==arr[i+1]){
+        printf("%d", -1);
+    }
     else if(n==2){
         if(arr[0]>arr[1]){
             printf("%d", arr[0]);
