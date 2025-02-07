@@ -6,8 +6,8 @@ char* welcome() {
 
 int main() {
     int a;
-    for(int i=a;i<=0;i--){
-        print("%c\n", "*"*i);
+    for(int i=0;i<a;i++){
+        print("%c", "*");
     }
     return 0;
 }
