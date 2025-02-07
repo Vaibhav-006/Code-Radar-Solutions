@@ -7,19 +7,16 @@ char* welcome() {
 int main() {
     int n;
     scanf("%d", &n);
-    for(int i=0;i<n;i++){
-        if(i!=0 || i!=n-1){
-        for(int k=0;k<n-1;k++){
-            printf(" ");
+    for(int i=0;i<n+1;i++){
+        for(int j=0;j<n;j++){
+            if(i==0 || i==n || j==0 || j==n){
+                printf("*");
             }
-        }
-        else{
-        for(int k=0;k<n;k++){
-            printf("*");
+            else{
+                printf(" ");
             }
         }
         printf("\n");
-        
     }
     return 0;
 }
