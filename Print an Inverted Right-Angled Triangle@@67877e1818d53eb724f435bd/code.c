@@ -9,6 +9,7 @@ int main() {
     scanf("%d", &a);
     for(int i=0;i<a;i++){
         printf("* ");
+        
     }
     return 0;
 }
