@@ -16,8 +16,8 @@ int main() {
         else{
             printf("*");
         }
+        printf("\n")
         
     }
-    printf("%s", welcome());
     return 0;
 }
