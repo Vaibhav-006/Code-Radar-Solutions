@@ -10,7 +10,7 @@ int main() {
     for(int i=0;i<n;i++){
         if(i!=0 && i!=n-1){
         for(int k=0;k<n-1;k++){
-            printf("* ");
+            printf(" ");
             }
         }
         else{
