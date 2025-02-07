@@ -8,7 +8,10 @@ int main() {
     int a;
     scanf("%d", &a);
     for(int i=0;i<a;i++){
-        printf("* ");
+        for(int j=i;j<=a;j++){
+            printf("* ");
+        }
+        printf("\n");
         
     }
     return 0;
