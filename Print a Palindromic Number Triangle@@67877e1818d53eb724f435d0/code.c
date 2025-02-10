@@ -15,7 +15,7 @@ int main() {
             printf("%d",k);
         }
         for(int l=n-1; l>1; l--){
-            printf("%d", l)
+            printf("%d", l);
         }
         printf("\n");
     }
