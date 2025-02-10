@@ -15,6 +15,5 @@ int main() {
             printf("1%d1 ",k);
         }
     }
-    printf("%s", welcome());
     return 0;
 }
