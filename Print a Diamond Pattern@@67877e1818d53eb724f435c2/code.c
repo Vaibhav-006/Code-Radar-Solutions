@@ -21,7 +21,7 @@ int main() {
         for(int j=0; j<i; j++){
             printf(" ");
         }
-        for(int k=1; k<((n)-2*i);k++){
+        for(int k=1; k<(2*n-i);k++){
             printf("*");
         }
         printf("\n");
