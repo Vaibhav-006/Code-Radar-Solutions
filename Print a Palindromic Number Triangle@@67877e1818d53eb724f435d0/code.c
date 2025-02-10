@@ -11,8 +11,8 @@ int main() {
         for(int j=0; j<n-i; j++){
             printf(" ");
         }
-        for(int k=i; k<=i; k++){
-            printf("1%d1 ",k);
+        for(int k=1; k<=i; k++){
+            printf("%d",k);
         }
         printf("\n");
     }
