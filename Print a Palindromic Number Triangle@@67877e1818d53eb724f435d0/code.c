@@ -14,6 +14,7 @@ int main() {
         for(int k=i; k<=i; k++){
             printf("1%d1 ",k);
         }
+        printf("\n");
     }
     return 0;
 }
