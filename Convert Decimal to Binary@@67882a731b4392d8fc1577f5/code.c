@@ -10,8 +10,13 @@ int main(){
         n/=2;
         i++;
     }
-    for(int j= i-1; j>=0; j--){
-        printf("%d", binary[j]);
+    if(n==0){
+        printf("0");
+    }
+    else{
+        for(int j= i-1; j>=0; j--){
+            printf("%d", binary[j]);
+    }
     }
     return 0;
 }
