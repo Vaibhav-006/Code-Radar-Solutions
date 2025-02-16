@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     unsigned int a;
     scanf("%d", &a);
-    if(a&(1U<<31)){
+    if(a&1==1){
         printf("Set");
     }
     else{
