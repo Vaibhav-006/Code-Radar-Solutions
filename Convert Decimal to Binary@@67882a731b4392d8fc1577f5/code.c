@@ -13,9 +13,11 @@ int main(){
     for(int j= i-1; j>=0; j--){
         if(n==0){
             printf("%d", 0);
+            break;
         }
         else{
-        printf("%d", binary[j]);}
+        printf("%d", binary[j]);
+    }
     }
     return 0;
 }
