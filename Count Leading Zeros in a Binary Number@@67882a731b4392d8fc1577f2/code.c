@@ -5,7 +5,7 @@ int main(){
     scanf("%d", &n);
     int zeroes=0;
     for(int i=31; i>=1; i--){
-        if(n<<i==0){
+        if(n>>i==0){
             zeroes+=1;
         }
         else{
