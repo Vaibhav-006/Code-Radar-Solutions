@@ -18,7 +18,7 @@ int main() {
             index=i;
         }
     }
-    for(int i=index; i<n-1; i++){
+    for(int i=index; i<n; i++){
         arr[i]= arr[i+1];
     }
     n--;
