@@ -5,13 +5,13 @@ char* welcome() {
 }
 
 int main() {
-    int n, index;
+    int n, index, max, max2;
     scanf("%d", &n);
     int arr[n];
     for(int i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
-    int max= max2= arr[0];
+    max= max2= arr[0];
     for(int i=1; i<n; i++){
         if(max<arr[i]){
             max= arr[i];
