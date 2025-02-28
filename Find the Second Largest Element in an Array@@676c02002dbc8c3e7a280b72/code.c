@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int n, index, max, max2;
+    int n, index=0, max, max2;
     scanf("%d", &n);
     int arr[n];
     for(int i=0; i<n; i++){
