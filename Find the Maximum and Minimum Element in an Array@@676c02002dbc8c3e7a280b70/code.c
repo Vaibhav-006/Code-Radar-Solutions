@@ -9,10 +9,10 @@ int main(){
     }
     min= max=arr[0];
     for(int i=1; i<=n; i++){
-        if(min<arr[i]){
+        if(min>arr[i]){
             min=arr[i];
         }
-        if(max>arr[i]){
+        if(max<arr[i]){
             max=arr[i];
         }
     }
