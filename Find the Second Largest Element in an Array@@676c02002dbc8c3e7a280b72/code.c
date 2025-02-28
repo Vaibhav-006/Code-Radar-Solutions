@@ -22,11 +22,11 @@ int main() {
         arr[i]= arr[i+1];
     }
     n--;
-    for(int i=0; i<n-1; i++)[
+    for(int i=0; i<n-1; i++){
         if(max2<arr[i]){
             max2= arr[i];
         }
-    ]
+    }
     printf("%d", max2);
 
     return 0;
