@@ -29,12 +29,7 @@ int main() {
         }
     }
 
-    if(n==1){
-        printf("-1");
-    }
-    else{
     printf("%d", max2);
-    }
 
     return 0;
 }
