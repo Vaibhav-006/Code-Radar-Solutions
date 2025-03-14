@@ -28,7 +28,13 @@ int main() {
             max2= arr[i];
         }
     }
+
+    if(n==1){
+        printf("%d", -1);
+    }
+    else{
     printf("%d", max2);
+    }
 
     return 0;
 }
