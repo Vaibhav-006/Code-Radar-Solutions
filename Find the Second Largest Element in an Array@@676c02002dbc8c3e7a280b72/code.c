@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int n, index=0, max, max2;
+    int n, index=0, max, max2, count=0;
     scanf("%d", &n);
     int arr[n];
     for(int i=0; i<n; i++){
@@ -28,8 +28,21 @@ int main() {
             max2= arr[i];
         }
     }
+    for(int i=0; i<n; i++){
+        if(arr[i]==arr[i+1]){
+            count+=1;
+        }
+    }
+    if(count==n){
+        printf("%d", -1);
+    }
+    else if(n==1){
+        printf("%d", -1);
+    }
 
-    printf("%d", max2);
+    else{
+        printf("%d", max2);
+    }
 
     return 0;
 }
