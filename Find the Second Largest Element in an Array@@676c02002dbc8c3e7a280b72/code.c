@@ -24,8 +24,11 @@ int main() {
             index=i;
         }
     }
-    for(int i=index; i<n; i++){
+
+    if(i!=n-1){
+        for(int i=index; i<n; i++){
         arr[i]= arr[i+1];
+        }
     }
     n--;
     max2=arr[0];
