@@ -33,13 +33,15 @@ int main() {
             count+=1;
         }
     }
-    if(count==n){
-        printf("%d", -1);
-    }
-    else if(n==1){
+    
+    if(n==1){
         printf("%d", -1);
     }
 
+    else if(count==n){
+        printf("%d", -1);
+    }
+    
     else{
         printf("%d", max2);
     }
