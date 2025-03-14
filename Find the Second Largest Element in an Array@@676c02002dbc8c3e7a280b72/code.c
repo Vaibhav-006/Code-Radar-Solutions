@@ -25,7 +25,7 @@ int main() {
         }
     }
 
-    if(i!=n-1){
+    if(index!=n-1){
         for(int i=index; i<n; i++){
         arr[i]= arr[i+1];
         }
