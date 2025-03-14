@@ -38,7 +38,7 @@ int main() {
         }
     }
     
-    if(n==1){
+    if(n+1==1){
         printf("%d", -1);
     }
 
