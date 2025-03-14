@@ -11,7 +11,7 @@ int main() {
     for(int i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
-    max= max2= arr[0];
+    max= arr[0];
     for(int i=1; i<n; i++){
         if(max<arr[i]){
             max= arr[i];
@@ -22,6 +22,7 @@ int main() {
         arr[i]= arr[i+1];
     }
     n--;
+    max2=arr[0]
     for(int i=1; i<n; i++){
         if(max2<arr[i]){
             max2= arr[i];
