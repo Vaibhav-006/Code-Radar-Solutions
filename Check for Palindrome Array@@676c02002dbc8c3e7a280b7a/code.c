@@ -25,10 +25,10 @@ int main(){
         }
     }
     if(n==count){
-        printf("YES");
+        printf("YES, %d", count);
     }
     else{
-        printf("NO");
+        printf("NO, %d", count);
     }
     return 0;
 }
