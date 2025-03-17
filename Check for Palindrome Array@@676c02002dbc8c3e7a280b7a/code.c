@@ -25,7 +25,7 @@ int main(){
         }
     }
     if(n==count){
-        print("YES");
+        printf("YES");
     }
     else{
         printf("NO");
