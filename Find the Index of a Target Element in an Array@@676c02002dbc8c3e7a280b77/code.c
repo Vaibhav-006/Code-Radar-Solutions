@@ -14,9 +14,7 @@ int main(){
     for(int i=0; i<n; i++){
         if(arr[i]==s){
             printf("%d", i);
-        }
-        else{
-            printf("%d", -1);
+            break;
         }
     }
     return 0;
