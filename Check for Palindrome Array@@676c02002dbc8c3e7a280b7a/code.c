@@ -13,8 +13,8 @@ int main(){
         for(int i=1; i<=n; i++){
             if(arr[i-1]==arr[-i]){
                 count+=1;
+                }
         }
-    }
     }
     else{
         n= (n-1)/2;
