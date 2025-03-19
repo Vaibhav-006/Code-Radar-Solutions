@@ -4,7 +4,7 @@ int main(){
     int n, k=0;
     scanf("%d", &n);
     int arr[n];
-    int arr2[];
+    int arr2[100];
     for(int i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
@@ -15,7 +15,7 @@ int main(){
         }
     }
     int max= arr2[0];
-    for(int i=0; i<n; i++){
+    for(int i=0; i<k; i++){
         if(max<arr2[i]){
             max= arr2[i];
         }
