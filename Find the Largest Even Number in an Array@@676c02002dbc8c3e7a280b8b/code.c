@@ -15,7 +15,7 @@ int main(){
         }
     }
     int max= arr2[0];
-    for(int i=0; i<k; i++){
+    for(int i=1; i<k; i++){
         if(max<arr2[i]){
             max= arr2[i];
         }
