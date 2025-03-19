@@ -15,11 +15,16 @@ int main(){
         }
     }
     int max= arr2[0];
-    for(int i=1; i<k; i++){
-        if(max<arr2[i]){
-            max= arr2[i];
-        }
-        }
-        printf("%d", max);
+    if(k>0){
+        for(int i=1; i<k; i++){
+            if(max<arr2[i]){
+                max= arr2[i];
+                }
+            }
+            printf("%d", max);
+    }
+    else{
+        printf("%d", -1);
+    }
     return 0;
 }
