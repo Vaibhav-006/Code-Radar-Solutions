@@ -7,6 +7,7 @@ int main(){
         scanf("%d", &arr[i]);
     }
     int last= arr[-1];
+    int min= arr[0];
     for(int i=1; i<n; i++){
         if(min>arr[i]){
             index=i;
