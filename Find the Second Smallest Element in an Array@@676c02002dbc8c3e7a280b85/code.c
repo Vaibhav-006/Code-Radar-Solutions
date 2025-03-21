@@ -20,7 +20,7 @@ int main(){
 
     for(int i=0; i<n-1; i++){
         if(min2>arr[i]){
-            min= arr[i];
+            min2= arr[i];
         }
 }
     printf("%d", min2);
