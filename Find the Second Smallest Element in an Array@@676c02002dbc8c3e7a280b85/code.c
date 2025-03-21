@@ -19,8 +19,8 @@ int main(){
     int min2= arr[0];
 
     for(int i=0; i<n-1; i++){
-        if(min2<arr[i]){
-            min2= arr[i];
+        if(min2>arr[i]){
+            min= arr[i];
         }
 }
     printf("%d", min2);
