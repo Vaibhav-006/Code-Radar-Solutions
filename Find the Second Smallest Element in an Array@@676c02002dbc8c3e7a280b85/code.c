@@ -6,7 +6,6 @@ int main(){
     for(int i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
-    int min = arr[0];
     int last= arr[-1];
     for(int i=1; i<n; i++){
         if(min>arr[i]){
