@@ -10,7 +10,6 @@ int main(){
     int last= arr[-1];
     for(int i=1; i<n; i++){
         if(min>arr[i]){
-            min= arr[i];
             index=i;
         }
     }
@@ -22,7 +21,7 @@ int main(){
         if(min2>arr[i]){
             min2= arr[i];
         }
-}
+    }
     printf("%d", min2);
 
     return 0;
