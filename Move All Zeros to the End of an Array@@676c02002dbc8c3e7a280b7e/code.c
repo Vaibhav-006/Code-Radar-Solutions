@@ -11,7 +11,7 @@ int main(){
         if(arr[i]==0){
             arr[i]=arr[-index];
             arr[-index]=arr[i];
-            index++
+            index++;
         }
     }
     for(int i=0; i<n; i++){
