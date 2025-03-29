@@ -24,9 +24,15 @@ int main(){
     int max=fre[0];
     for(int i=0; i<n; i++){
         if(max<fre[i]){
+            max= fre[i];
             index=i;
         }
     }
-    printf("%d", arr[index]);
+    if(max>n/2){
+        printf("%d", arr[index]);
+    }
+    else{
+        printf("%d", -1);
+    }
     return 0;
 }
