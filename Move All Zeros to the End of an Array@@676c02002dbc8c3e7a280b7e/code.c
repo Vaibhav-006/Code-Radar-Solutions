@@ -7,11 +7,9 @@ int main(){
         scanf("%d", &arr[i]);
     }
     int a=1;
-    for(int i=0; i<n; i++){
+    for(int i=0; i<n-1; i++){
         if(arr[i]==0){
-            arr[i]=arr[n-a];
-            arr[n-a]=0;
-            a++;
+            arr[i]=arr[i+1];
         }
     }
     for(int i=0; i<n; i++){
