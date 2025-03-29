@@ -6,23 +6,17 @@ int main(){
     for(int i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
-    int last= arr[-1];
-    int min= arr[0];
-    for(int i=1; i<n; i++){
-        if(min>arr[i]){
-            index=i;
+    
+    for(int i=0; i<n-1; i++){
+        for(int j=0; j<n-i-1; j++){
+            if(arr[j]>arr[j+1]){
+                int temp= arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=arr[j];
+            }
         }
     }
-    arr[-1]= arr[index];
-    arr[index]= last;
-    int min2= arr[0];
-
-    for(int i=1; i<n-1; i++){
-        if(min2>arr[i]){
-            min2= arr[i];
-        }
-    }
-    printf("%d", min2);
+    printf("%d", arr[i];
 
     return 0;
 }
