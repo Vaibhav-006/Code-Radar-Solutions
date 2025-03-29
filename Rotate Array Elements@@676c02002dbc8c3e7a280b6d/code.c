@@ -19,9 +19,9 @@ int main() {
     }
     scanf("%d", &k);
     
-    reverse(0, n-1, arr[])
-    reverse(0, k-1, arr[])
-    reverse(k, n-1, arr[])
+    reverse(0, n-1, arr[n])
+    reverse(0, k-1, arr[n])
+    reverse(k, n-1, arr[n])
     
     for(int i=0; i<n; i++){
         printf("%d\n", arr[i]);
