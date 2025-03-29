@@ -27,5 +27,5 @@ int main(){
             index=i;
         }
     }
-    printf("%d", max);
+    printf("%d", arr[i]);
 }
