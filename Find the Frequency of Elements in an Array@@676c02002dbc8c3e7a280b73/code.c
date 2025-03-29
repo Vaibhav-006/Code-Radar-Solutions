@@ -25,6 +25,7 @@ int main(){
             printf("%d %d", arr[i], fre[i]);
         }
     }
+    getch();
     
     return 0;
 }
