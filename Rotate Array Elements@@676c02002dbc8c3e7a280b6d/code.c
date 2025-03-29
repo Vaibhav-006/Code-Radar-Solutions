@@ -8,12 +8,6 @@ int reverse(int start, int end, int arr[]){
         start++;
         end--;
     }
-    start=0,end=k-1;
-    while(start<end){
-        int temp=arr[start];
-        arr[start]=arr[end];
-        arr[end]=temp;
-    }
 }
 
 int main() {
