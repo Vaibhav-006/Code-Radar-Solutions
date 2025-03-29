@@ -19,6 +19,7 @@ int main() {
     }
     scanf("%d", &k);
     
+    k%=n;
     reverse(0, n-1, arr);
     reverse(0, k-1, arr);
     reverse(k, n-1, arr);
