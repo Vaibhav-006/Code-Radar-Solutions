@@ -9,8 +9,8 @@ int main(){
 
     for(int i=1; i<n; i++){
         if(arr[i-1]==0){
-            arr[i]=arr[n-i];
-            arr[n-1]=0;
+            arr[i-1]=arr[n-i];
+            arr[n-i]=0;
         }
     }
     for(int i=0; i<n; i++){
