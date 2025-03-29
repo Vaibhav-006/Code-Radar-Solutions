@@ -26,6 +26,12 @@ int main() {
         arr[start]=arr[end];
         arr[end]=temp;
     }
+    start=k, end=n-1;
+    while(start<end){
+        int temp= arr[start];
+        arr[start]=arr[end];
+        arr[end]= temp;
+    }
     for(int i=0; i<n; i++){
         printf("%d\n", arr[i]);
     }
