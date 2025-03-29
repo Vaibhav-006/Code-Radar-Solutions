@@ -7,7 +7,12 @@ int findOccurrence(int arr[], int n, int target, char mode){
                 break;
             }
         }
+        if(index!=0){
         return index;
+        }
+        else{
+            return -1;
+        }
     }
     else if(mode=='L'){
         for(int i=0; i<n; i++){
@@ -15,6 +20,11 @@ int findOccurrence(int arr[], int n, int target, char mode){
                 index=i;
             }
         }
+        if(index!=0){
         return index;
+        }
+        else{
+            return -1;
+        }
     }
 }
