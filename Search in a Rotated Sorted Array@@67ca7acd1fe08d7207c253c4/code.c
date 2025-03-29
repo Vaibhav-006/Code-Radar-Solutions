@@ -6,7 +6,7 @@ int searchInRotatedArray(int arr[], int n, int target){
             count++;
         }
     }
-    if(count!=0{
+    if(count!=0){
         return index;
     })
     else{
