@@ -16,7 +16,7 @@ int main(){
             }
         }
     }
-    printf("%d", arr[i]);
+    printf("%d", arr[1]);
 
     return 0;
 }
