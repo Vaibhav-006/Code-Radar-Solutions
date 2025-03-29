@@ -8,7 +8,7 @@ int searchInRotatedArray(int arr[], int n, int target){
     }
     if(count!=0){
         return index;
-    })
+    }
     else{
         return 0;
     }
