@@ -19,7 +19,6 @@ int main(){
         if(fre[i]!=0){
             fre[i]=count;
         }
-        count=1;
     }
     for(int i=0; i<n; i++){
         if(fre[i]!=0){
