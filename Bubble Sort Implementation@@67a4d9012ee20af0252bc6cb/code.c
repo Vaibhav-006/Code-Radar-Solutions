@@ -3,8 +3,8 @@ int bubbleSort(int arr[], int n){
         for(int j=0; j<n-i-1; j++){
             if(arr[j]>arr[j+1]){
                 int temp=arr[j];
-                arr1[j]=arr[j+1];
-                arr1[j]=temp;
+                arr[j]=arr[j+1];
+                arr[j]=temp;
             }
         }
     }
