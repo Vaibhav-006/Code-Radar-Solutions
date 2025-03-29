@@ -10,6 +10,6 @@ int searchInRotatedArray(int arr[], int n, int target){
         return index;
     }
     else{
-        return 0;
+        return -1;
     }
 }
