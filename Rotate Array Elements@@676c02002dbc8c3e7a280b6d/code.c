@@ -5,12 +5,13 @@ char* welcome() {
 }
 
 int main() {
-    int n;
+    int n,k;
     scanf("%d", &n);
     int arr[n];
     for(int i=0;i<=n;i++){
         scanf("%d\n", &arr[i]);
     }
+    scanf("%d", &k);
     int start=0, end=n-1;
     while(start<end){
         int temp= arr[start];
