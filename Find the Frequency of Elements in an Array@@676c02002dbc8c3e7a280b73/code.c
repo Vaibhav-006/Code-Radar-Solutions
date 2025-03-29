@@ -3,7 +3,7 @@
 int main(){
     int n, count=1;
     scanf("%d", &n);
-    int arr[n], fre[n];
+    int arr[100], fre[100];
     for(int i=0; i<n; i++){
         scanf("%d", &arr[i]);
         fre[i]=-1;
@@ -25,7 +25,6 @@ int main(){
             printf("%d %d", arr[i], fre[i]);
         }
     }
-    getch();
     
     return 0;
 }
