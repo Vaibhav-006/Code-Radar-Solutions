@@ -11,10 +11,22 @@ int main() {
     for(int i=0;i<=n;i++){
         scanf("%d\n", &arr[i]);
     }
-    int r;
-    scanf("%d", &r);
-    for(int i=2;i<=r+1;i++){
-        printf("%d\n", arr[-i]);
+    int start=0, end=n-1;
+    while(start<end){
+        int temp= arr[start];
+        arr[start]=arr[end];
+        arr[end]=temp;
+        start++;
+        end--;
+    }
+    start=0,end=k-1;
+    while(start<end){
+        temp=arr[start];
+        arr[start]=arr[end];
+        arr[end]=temp;
+    }
+    for(int i<0; i<n; i++){
+        printf("%d\n", arr[i]);
     }
     return 0;
 }
