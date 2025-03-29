@@ -5,6 +5,6 @@ int binarySearch(int arr[], int n, int target){
             index=i;
         }
     }
-    int ans=arr[i];
+    int ans=arr[index];
     return ans;
 }
