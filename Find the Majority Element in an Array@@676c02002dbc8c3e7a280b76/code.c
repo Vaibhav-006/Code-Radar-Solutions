@@ -28,4 +28,5 @@ int main(){
         }
     }
     printf("%d", arr[index]);
+    return 0;
 }
