@@ -22,7 +22,7 @@ int main(){
     }
     for(int i=0; i<n; i++){
         if(fre[i]!=0){
-            printf("%d %d", arr[i], fre[i]);
+            printf("%d %d\n", arr[i], fre[i]);
         }
     }
     
