@@ -22,7 +22,7 @@ int main() {
     }
     start=0,end=k-1;
     while(start<end){
-        temp=arr[start];
+        int temp=arr[start];
         arr[start]=arr[end];
         arr[end]=temp;
     }
