@@ -23,5 +23,5 @@ int main(){
             }
         }
     }
-    printf("%d %d %d", arr[index1], arr[index2]);
+    printf("%d %d", arr[index1], arr[index2]);
 }
