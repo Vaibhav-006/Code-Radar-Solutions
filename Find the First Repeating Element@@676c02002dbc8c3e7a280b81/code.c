@@ -15,9 +15,9 @@ int main(){
                 count++;
                 break;
             }
-            if(count>0){
-                break;
-            }
+        }
+        if(count>0){
+            break;
         }
     }
 }
