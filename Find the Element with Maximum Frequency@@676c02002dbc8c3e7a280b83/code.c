@@ -28,8 +28,6 @@ int main(){
             index=i;
         }
     }
-    else{
-        printf("%d", -1);
-    }
+    printf("%d", arr[i]);
     return 0;
 }
