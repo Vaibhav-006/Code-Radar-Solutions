@@ -28,9 +28,6 @@ int main(){
             index=i;
         }
     }
-    if(max>n/2){
-        printf("%d", arr[index]);
-    }
     else{
         printf("%d", -1);
     }
