@@ -15,8 +15,8 @@ int main(){
                 continue;
             }
             else{
-            if(abs(arr[i]-arr[j]<diff)){
-                diff= arr[i]-arr[j];
+            if(arr[i]-arr[j]<diff){
+                diff= abs(arr[i]-arr[j]);
                 index1= i;
                 index2= j;
             }
