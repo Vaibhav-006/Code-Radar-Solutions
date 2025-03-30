@@ -12,7 +12,7 @@ int main(){
         for(int j=i+1; j<n; j++){
             if(arr[i]==arr[j]){
                 count++;
-                printf("%d", arr[i]);
+                printf("%d ", arr[i]);
                 break;
             }
         }
