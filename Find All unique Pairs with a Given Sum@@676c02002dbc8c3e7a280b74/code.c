@@ -12,9 +12,11 @@ int main() {
         scanf("%d", &arr[i]);
     }
     scanf("%d", &a);
-    for(int i=0; i<n; i++){
-        if(arr[i]+arr[i+1]==a){
-            printf("%d %d", arr[i], arr[i+1]);
+    for(int i=0;i<n;i++){
+        for(int j=i+1; j<n; i++){
+            if(arr[i]+arr[j]==a){
+                printf("%d %d", arr[i], arr[j]);
+            }
         }
         printf("\n");
     }
