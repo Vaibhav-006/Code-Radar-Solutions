@@ -9,7 +9,7 @@ int main(){
     int a=0;
     for(int i=0; i<n; i++){
         if(arr[i]!=0){
-            arr1[a]=arr[i];
+            arr2[a]=arr[i];
             a++;
         }
     }
