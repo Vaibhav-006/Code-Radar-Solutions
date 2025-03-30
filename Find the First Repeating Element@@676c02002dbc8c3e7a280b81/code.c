@@ -19,8 +19,5 @@ int main(){
         if(count>0){
             break;
         }
-        else if(count==0){
-            printf("%d", -1);
-        }
     }
 }
