@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void sum(int arr[], int n){
-    int sum[n];
+    int arrs[n];
     for(int i=0; i<n; i++){
         int sum=0;
         while(arr[i]>0){
@@ -9,7 +9,7 @@ void sum(int arr[], int n){
             sum+=remainder;
             arr[i]/=10;
         }
-        sum[i]=sum;
+        arrs[i]=sum;
     }
     for(int i=0; i<n; i++){
         printf("%d ", sum[i]);
