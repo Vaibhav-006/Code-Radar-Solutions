@@ -12,7 +12,10 @@ int main(){
 
     for(int i=0; i<n; i++){
         for(int j=2; j<n; j++){
-            if(arr[i]%j && n!=2){
+            if(arr[i]==2 || arr[i]==3){
+                break;
+            }
+            else if(arr[i]%j && n!=2){
                 count--;
                 break;
             }
