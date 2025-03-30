@@ -23,10 +23,10 @@ int main(){
         }
     }
     if(n/2==count){
-        printf("YES, %d", count);
+        printf("YES");
     }
     else{
-        printf("NO, %d", count);
+        printf("NO");
     }
     return 0;
 }
