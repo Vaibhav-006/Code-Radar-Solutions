@@ -24,8 +24,8 @@ int main(){
 
     int max= fre[0],index=0;
     for(int i=1; i<n; i++){
-        if(max<arr[i]){
-            max=arr[i];
+        if(max<fre[i]){
+            max=fre[i];
             index=i;
         }
     }
