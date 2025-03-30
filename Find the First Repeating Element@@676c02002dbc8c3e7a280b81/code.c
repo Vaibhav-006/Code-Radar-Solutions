@@ -20,4 +20,7 @@ int main(){
             break;
         }
     }
+    if(count==0){
+        printf("%d", -1);
+    }
 }
