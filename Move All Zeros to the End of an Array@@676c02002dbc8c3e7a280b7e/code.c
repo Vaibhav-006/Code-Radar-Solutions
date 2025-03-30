@@ -18,8 +18,8 @@ int main(){
             arr2[i]=0;
         }
     }
-    for(int i=0; i<n; i++)[
+    for(int i=0; i<n; i++){
         printf("%d ", arr2[i]);
-    ]
+    }
     return 0;
 }
