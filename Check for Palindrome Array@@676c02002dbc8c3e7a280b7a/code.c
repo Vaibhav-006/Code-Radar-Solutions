@@ -10,14 +10,14 @@ int main(){
 
     if(n%2==0){
         for(int i=1; i<=n/2; i++){
-            if(arr[i-1]==arr[-i]){
+            if(arr[i-1]==arr[n-i]){
                 count+=1;
                 }
         }
     }
     else{
         for(int i=1; i<=(n-1)/2; i++){
-            if(arr[i-1]==arr[-i]){
+            if(arr[i-1]==arr[n-i]){
                 count+=1;
             }
         }
