@@ -11,7 +11,7 @@ int main(){
     }
 
     for(int i=0; i<n; i++){
-        for(int j=2; j<n; j++){
+        for(int j=2; j<9; j++){
             if(arr[i]==2 || arr[i]==3 || arr[i]==5 || arr[i]==7 || arr[i]==9){
                 break;
             }
