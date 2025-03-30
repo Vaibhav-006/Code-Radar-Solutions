@@ -18,7 +18,7 @@ int main(){
         if(count==n-k){
             printf("%d ", arr[i]);
         }
-        k--;
+        k++;
     }
     printf("%d", arr[n-1]);
     return 0;
