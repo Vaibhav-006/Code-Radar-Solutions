@@ -9,7 +9,7 @@ int main(){
     }
 
     for(int i=0; i<n; i++){
-        for(int j=0; j<n; j++){
+        for(int j=1; j<n; j++){
             if(arr[i]-arr[j]<diff){
                 diff= arr[i]-arr[j];
                 index1= i;
