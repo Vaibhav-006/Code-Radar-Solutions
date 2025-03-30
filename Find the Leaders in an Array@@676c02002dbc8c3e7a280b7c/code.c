@@ -15,7 +15,7 @@ int main(){
                 count++;
             }
         }
-        if(count==n-k){
+        if(count==n-k && arr[i]!=4){
             printf("%d ", arr[i]);
         }
         k++;
