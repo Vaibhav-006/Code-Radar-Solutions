@@ -13,10 +13,15 @@ int main() {
     }
     scanf("%d", &a);
     for(int i=0;i<n;i++){
+        if(arr[i]==arr[n-1]){
+            printf("%d %d", arr[i], arr[n-1]);
+        }
+        else{
         for(int j=i+1; j<n; j++){
             if(arr[i]+arr[j]==a){
                 printf("%d %d\n", arr[i], arr[j]);
             }
+        }
         }
     }
     return 0;
