@@ -14,7 +14,7 @@ int main(){
         }
     }
     for(int i=a; i<n; i++){
-        arr2[i]=0
+        arr2[i]=0;
     }
     for(int i=0; i<n; i++){
         printf("%d ", arr2[i]);
