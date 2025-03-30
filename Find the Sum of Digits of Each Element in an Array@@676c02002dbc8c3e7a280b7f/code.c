@@ -1,4 +1,4 @@
-#inclyde <stdio.h>
+#include <stdio.h>
 
 void sum(int arr[], int n){
     int sum[n];
