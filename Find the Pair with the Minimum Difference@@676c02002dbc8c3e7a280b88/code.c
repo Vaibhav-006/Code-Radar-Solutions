@@ -17,5 +17,5 @@ int main(){
             }
         }
     }
-    printf("%d %d", arr[i], arr[j]);
+    printf("%d %d", arr[index1], arr[index2]);
 }
