@@ -22,7 +22,7 @@ int main(){
             }
         }
     }
-    if(n==count){
+    if(n/2==count){
         printf("YES, %d", count);
     }
     else{
