@@ -15,6 +15,10 @@ int main(){
             if(arr[i]==2 || arr[i]==3){
                 break;
             }
+            else if(arr[i]==0 || arr[i]==1){
+                count--;
+                break;
+            }
             else if(arr[i]%j==0){
                 count--;
                 break;
