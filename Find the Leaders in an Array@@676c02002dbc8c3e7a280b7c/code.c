@@ -15,7 +15,7 @@ int main(){
                 count++;
             }
         }
-        if(count==n-k){
+        if(count==n-k && count!=0){
             printf("%d ", arr[i]);
         }
         k++;
