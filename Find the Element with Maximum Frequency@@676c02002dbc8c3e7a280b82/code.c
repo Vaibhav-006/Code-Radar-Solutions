@@ -11,7 +11,7 @@ int main(){
 
     for(int i=0; i<n; i++){
         count=1;
-        for(int j=i+1; j<n; i++){
+        for(int j=i+1; j<n; j++){
             if(arr[i]==arr[j]){
                 fre[j]=0;
                 count++;
@@ -23,7 +23,7 @@ int main(){
     }
 
     int max= fre[0],index=0;
-    for(int i=1; i<n-1; i++){
+    for(int i=1; i<n; i++){
         if(max<arr[i]){
             max=arr[i];
             index=i;
