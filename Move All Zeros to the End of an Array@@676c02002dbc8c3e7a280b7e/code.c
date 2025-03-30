@@ -11,6 +11,8 @@ int main(){
         if(arr[i]==0){
             for(int j=i; j<n-1; j++){
                 arr[i]=arr[i+1];
+                arr[n-a]=0;
+                a++;
             }
         }
     }
