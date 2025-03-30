@@ -15,7 +15,7 @@ int main(){
             if(arr[i]==2 || arr[i]==3){
                 break;
             }
-            else if(arr[i]%j && n!=2){
+            else if(arr[i]%j==0){
                 count--;
                 break;
             }
