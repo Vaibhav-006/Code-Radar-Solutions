@@ -14,7 +14,7 @@ int main(){
         }
     }
     for(int i=0; i<n; i++){
-        if(arr2[i]!=0){
+        if(arr2[i]<0){
             arr2[i]=0;
         }
     }
