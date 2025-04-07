@@ -1,5 +1,11 @@
 int deflateBalloons(int air[], int n){
-    int min= air[0];
+    int min;
+    for(int i=0; i<n; i++){
+        if(arr[i]>0){
+            min=arr[i];
+            break;
+        }
+    }
     for(int i=1; i<n; i++){
         if(air[i]<min && air[i]!=0){
             min=air[i];
