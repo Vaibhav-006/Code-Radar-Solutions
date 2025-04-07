@@ -15,7 +15,7 @@ int deflateBalloons(int air[], int n){
             if(air[0]>0){
                 air[j]-=air[0];
             }
-            else if(air[0]<=0){
+            else if(air[0]==0){
                 air[j]-=air[1];
             }
         }
