@@ -13,10 +13,10 @@ int deflateBalloons(int air[], int n){
         int count=0;
         for(int j=1; j<n; j++){
             if(arr[0]>0){
-                arr[j]-=arr[0];
+                air[j]-=air[0];
             }
             else{
-                arr[j]-=arr[1];
+                air[j]-=air[1];
             }
         }
         for(int k=1; k<n; k++){
