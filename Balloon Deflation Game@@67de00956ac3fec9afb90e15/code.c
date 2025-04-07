@@ -14,7 +14,7 @@ int deflateBalloons(int air[], int n){
         for(int j=1; j<n; j++){
             air[j]-=air[0];
         }
-        for(int k=0; k<n; k++){
+        for(int k=1; k<n; k++){
             if(air[k]>0){
                 count+=1;
             }
