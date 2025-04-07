@@ -11,6 +11,6 @@ int digitRightShift(int N){
         for(int i=1; i<n; i++){
             pow*=10;
         }
-        int result= (remainder*pow)+N
+        int result= (remainder*pow)+N;
         return result;
     }
