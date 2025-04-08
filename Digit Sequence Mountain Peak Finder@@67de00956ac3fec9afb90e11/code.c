@@ -3,7 +3,7 @@ int mountainPeak(int N){
     int arr[100];
     while(N>0){
         int i=0;
-        int remainder= N%10
+        int remainder= N%10;
         arr[i]=remainder;
         N/=10;
         i++;
