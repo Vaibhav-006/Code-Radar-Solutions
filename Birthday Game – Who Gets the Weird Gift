@@ -2,6 +2,6 @@ int prankFriend(int n, int m, int s){
     for(int i=0; i<m; i++){
         s++;
     }
-    printf("%d", s);
+    return s;
 }
 
