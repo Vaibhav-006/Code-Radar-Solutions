@@ -18,11 +18,12 @@ int mostPlayedGame(int games[], int n){
         }
     }
     int max= fre[0];
+    int index=0;
     for(int i=0; i<n; i++){
         if(max<fre[i]){
-            max= fre[i];
+            index=i;
         }
     }
-    return max;
+    return games[index];
 
 }
