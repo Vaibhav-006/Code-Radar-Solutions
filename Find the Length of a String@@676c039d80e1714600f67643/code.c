@@ -3,6 +3,6 @@
 
 int main(){
     char str[100];
-    scanf("%s", str);
+    fgets(userInput, sizeof(userInput), stdin);
     printf("%d", strlen(str));
 }
