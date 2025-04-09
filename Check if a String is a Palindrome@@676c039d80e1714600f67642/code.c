@@ -10,7 +10,7 @@ int main(){
     for(int i=0; i<len; i++){
         str2[i]=str[len-1-i];
     }
-    for(int i=0; i<n; i++){
+    for(int i=0; i<len; i++){
         if(str[i]==str2[i]){
             count+=1;
         }
