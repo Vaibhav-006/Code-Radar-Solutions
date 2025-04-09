@@ -4,7 +4,8 @@ int main(){
     char str[100];
     scanf("%s", str);
 
-    for(int i=100; i>=0; i--){
-        printf("%s", str[i]);
+    int len= strlen(str)-1;
+    for(int i=len; i>=0; i--){
+        printf("%c", str[i]);
     }
 }
