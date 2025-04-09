@@ -8,7 +8,7 @@ int main(){
     int len= strlen(str);
     char str2[len];
     for(int i=0; i<len; i++){
-        str2[i]=str[len-1-i]
+        str2[i]=str[len-1-i];
     }
     for(int i=0; i<n; i++){
         if(str[i]==str2[i]){
