@@ -3,13 +3,13 @@
 
 int main(){
     char str[100];
-    scanf("[^\n]", str);
+    fgets(str, sizeof(str), stdin);
     int len= strlen(str), count=0;
     for(int i=0; i<len; i++){
         if(str[i]==' '){
             count+=1;
         }
     }
-    printf("%d", len);
+    printf("%d", count);
     return 0;
 }
