@@ -5,6 +5,6 @@ int main(){
     scanf("%s", str);
 
     for(int i=100; i>=0; i--){
-        printf("%c", str[i]);
+        printf("%s", str[i]);
     }
 }
