@@ -6,10 +6,10 @@ int main(){
     scanf("[^\n]", str);
     int len= strlen(str), count=0;
     for(int i=0; i<len; i++){
-        if(str[i]==''){
+        if(str[i]==' '){
             count+=1;
         }
     }
-    printf("%s", str);
+    printf("%c", str[4]);
     return 0;
 }
