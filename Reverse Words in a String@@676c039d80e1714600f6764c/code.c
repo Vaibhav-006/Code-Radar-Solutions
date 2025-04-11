@@ -6,7 +6,7 @@ int main(){
     fgets(str, sizeof(str), stdin);
     int len = strlen(str);
     for(int i=0; i<len; i++){
-        if(str[i]==" "){
+        if(str[i]==' '){
         for(int j=i-1; j>=0; j++){
             printf("%c", str[j]);
         }
