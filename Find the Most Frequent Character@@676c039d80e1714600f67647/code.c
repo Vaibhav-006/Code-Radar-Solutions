@@ -30,7 +30,7 @@ int main(){
             index=i;
         }
     }
-    printf("%c", str[i]);
+    printf("%c", str[index]);
     return 0;
 
 }
