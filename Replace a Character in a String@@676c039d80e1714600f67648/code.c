@@ -5,8 +5,8 @@ int main(){
     char str[100];
     scanf("%s", str);
     char a[1],b[1];
-    scanf("%c", a);
-    scanf("%c", b);
+    scanf("%c\n", a);
+    scanf("%c\n", b);
     int len= strlen(str);
     for(int i=0; i<len; i++){
         if(str[i]==a[0]){
