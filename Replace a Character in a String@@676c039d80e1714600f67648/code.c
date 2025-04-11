@@ -4,7 +4,6 @@
 int main(){
     char str[100];
     scanf("%s", str);
-    getchar();
     char a,b;
     scanf("%c", &a);
     scanf(" %c", &b);
