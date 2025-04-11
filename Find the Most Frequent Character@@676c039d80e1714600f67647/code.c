@@ -30,7 +30,7 @@ int main(){
             index=i;
         }
     }
-    printf("%c", arr[i]);
+    printf("%c", str[i]);
     return 0;
 
 }
