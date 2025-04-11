@@ -29,6 +29,11 @@ int main(){
             max=fre[i];
             index=i;
         }
+        else if(max==fre[i]){
+            if(str[index]<str[i]){
+                max=fre[i];
+            }
+        }
     }
     printf("%c", str[index]);
     return 0;
