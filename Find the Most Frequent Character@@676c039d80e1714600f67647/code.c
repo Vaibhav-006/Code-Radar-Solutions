@@ -31,7 +31,7 @@ int main(){
         }
         else if(max==fre[i]){
             if(str[index]>str[i]){
-                max=fre[i];
+                index=i;
             }
         }
     }
