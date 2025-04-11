@@ -56,7 +56,7 @@ int main(){
         }
     }
     int count1=0;
-    for(int i=0; i<n; i++){
+    for(int i=0; i<len; i++){
         if(fre[i]!=fre1[i]){
             count1+=1;
         }
