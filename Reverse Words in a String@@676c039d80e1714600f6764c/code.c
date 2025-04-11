@@ -7,7 +7,7 @@ int main(){
     int len = strlen(str);
     for(int i=0; i<len; i++){
         if(str[i]==' '){
-        for(int j=i-1; j>=0; j++){
+        for(int j=i-1; j>=0; j--){
             printf("%c", str[j]);
         }
         }
