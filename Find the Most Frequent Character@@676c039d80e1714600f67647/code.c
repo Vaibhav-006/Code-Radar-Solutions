@@ -24,7 +24,7 @@ int main(){
     }
     int index=0;
     int max= fre[0];
-    for(int i=0; i<n; i++){
+    for(int i=0; i<len; i++){
         if(max<fre[i]){
             max=fre[i];
             index=i;
