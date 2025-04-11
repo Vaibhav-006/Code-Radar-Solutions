@@ -7,7 +7,7 @@ int main(){
     getchar();
     char a,b;
     scanf("%c", &a);
-    scanf("%c", &b);
+    scanf(" %c", &b);
     int len= strlen(str);
     for(int i=0; i<len; i++){
         if(str[i]==a){
