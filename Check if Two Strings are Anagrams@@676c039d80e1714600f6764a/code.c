@@ -62,10 +62,10 @@ int main(){
         }
     }
     if(count1>0){
-        printf("YES");
+        printf("No");
     }
     else{
-        printf("No");
+        printf("Yes");
     }
     
     return 0;
